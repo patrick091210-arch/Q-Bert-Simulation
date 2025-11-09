@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 55;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        AA1F941128D34A0500F3C1F9 /* QbertGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F940528D34A0500F3C1F9 /* QbertGameApp.swift */; };
+        AA1F941228D34A0500F3C1F9 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F940628D34A0500F3C1F9 /* GameView.swift */; };
+        AA1F941328D34A0500F3C1F9 /* GameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F940728D34A0500F3C1F9 /* GameCoordinator.swift */; };
+        AA1F941428D34A0500F3C1F9 /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F940828D34A0500F3C1F9 /* FeedbackManager.swift */; };
+        AA1F941528D34A0500F3C1F9 /* EightBitMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F940928D34A0500F3C1F9 /* EightBitMusicPlayer.swift */; };
+        AA1F941628D34A0500F3C1F9 /* QbertScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F940A28D34A0500F3C1F9 /* QbertScene.swift */; };
+        AA1F941728D34A0500F3C1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1F940B28D34A0500F3C1F9 /* Assets.xcassets */; };
+        AA1F941828D34A0500F3C1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F940E28D34A0500F3C1F9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        AA1F940528D34A0500F3C1F9 /* QbertGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QbertGameApp.swift; sourceTree = "<group>"; };
+        AA1F940628D34A0500F3C1F9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+        AA1F940728D34A0500F3C1F9 /* GameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoordinator.swift; sourceTree = "<group>"; };
+        AA1F940828D34A0500F3C1F9 /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+        AA1F940928D34A0500F3C1F9 /* EightBitMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBitMusicPlayer.swift; sourceTree = "<group>"; };
+        AA1F940A28D34A0500F3C1F9 /* QbertScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QbertScene.swift; sourceTree = "<group>"; };
+        AA1F940B28D34A0500F3C1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        AA1F940C28D34A0500F3C1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        AA1F940D28D34A0500F3C1F9 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+        AA1F940E28D34A0500F3C1F9 /* LaunchScreen.storyboard */ = {isa = PBXVariantGroup; children = (
+                AA1F941B28D34A0500F3C1F9 /* Base */,
+            ); name = LaunchScreen.storyboard; sourceTree = "<group>"; };
+        AA1F940F28D34A0500F3C1F9 /* QbertGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QbertGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA1F941B28D34A0500F3C1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        AA1F940228D34A0400F3C1F9 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        AA1F93FD28D34A0400F3C1F9 = {
+            isa = PBXGroup;
+            children = (
+                AA1F941028D34A0500F3C1F9 /* Products */,
+                AA1F940428D34A0500F3C1F9 /* QbertGame */,
+            );
+            sourceTree = "<group>";
+        };
+        AA1F940428D34A0500F3C1F9 /* QbertGame */ = {
+            isa = PBXGroup;
+            children = (
+                AA1F940528D34A0500F3C1F9 /* QbertGameApp.swift */,
+                AA1F940628D34A0500F3C1F9 /* GameView.swift */,
+                AA1F941928D34A0500F3C1F9 /* Game */,
+                AA1F940B28D34A0500F3C1F9 /* Assets.xcassets */,
+                AA1F940E28D34A0500F3C1F9 /* LaunchScreen.storyboard */,
+                AA1F940C28D34A0500F3C1F9 /* Info.plist */,
+                AA1F940D28D34A0500F3C1F9 /* Preview Content */,
+            );
+            path = QbertGame;
+            sourceTree = "<group>";
+        };
+        AA1F941028D34A0500F3C1F9 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                AA1F940F28D34A0500F3C1F9 /* QbertGame.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        AA1F941928D34A0500F3C1F9 /* Game */ = {
+            isa = PBXGroup;
+            children = (
+                AA1F940728D34A0500F3C1F9 /* GameCoordinator.swift */,
+                AA1F940828D34A0500F3C1F9 /* FeedbackManager.swift */,
+                AA1F940928D34A0500F3C1F9 /* EightBitMusicPlayer.swift */,
+                AA1F940A28D34A0500F3C1F9 /* QbertScene.swift */,
+            );
+            path = Game;
+            sourceTree = "<group>";
+        };
+        AA1F941B28D34A0500F3C1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        AA1F93FF28D34A0400F3C1F9 /* QbertGame */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AA1F941528D34A0500F3C1F9 /* Build configuration list for PBXNativeTarget "QbertGame" */;
+            buildPhases = (
+                AA1F940128D34A0400F3C1F9 /* Sources */,
+                AA1F940228D34A0400F3C1F9 /* Frameworks */,
+                AA1F940328D34A0400F3C1F9 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = QbertGame;
+            productName = QbertGame;
+            productReference = AA1F940F28D34A0500F3C1F9 /* QbertGame.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        AA1F93FE28D34A0400F3C1F9 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 1500;
+                LastUpgradeCheck = 1500;
+                TargetAttributes = {
+                    AA1F93FF28D34A0400F3C1F9 = {
+                        CreatedOnToolsVersion = 15.0;
+                    };
+                };
+            };
+            buildConfigurationList = AA1F93F828D34A0400F3C1F9 /* Build configuration list for PBXProject "QbertGame" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = AA1F93FD28D34A0400F3C1F9;
+            productRefGroup = AA1F941028D34A0500F3C1F9 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                AA1F93FF28D34A0400F3C1F9 /* QbertGame */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        AA1F940328D34A0400F3C1F9 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA1F941728D34A0500F3C1F9 /* Assets.xcassets in Resources */,
+                AA1F941828D34A0500F3C1F9 /* LaunchScreen.storyboard in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        AA1F940128D34A0400F3C1F9 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA1F941328D34A0500F3C1F9 /* GameCoordinator.swift in Sources */,
+                AA1F941428D34A0500F3C1F9 /* FeedbackManager.swift in Sources */,
+                AA1F941528D34A0500F3C1F9 /* EightBitMusicPlayer.swift in Sources */,
+                AA1F941628D34A0500F3C1F9 /* QbertScene.swift in Sources */,
+                AA1F941128D34A0500F3C1F9 /* QbertGameApp.swift in Sources */,
+                AA1F941228D34A0500F3C1F9 /* GameView.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        AA1F93F928D34A0400F3C1F9 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CODE_SIGN_STYLE = Automatic;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        AA1F93FA28D34A0400F3C1F9 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CODE_SIGN_STYLE = Automatic;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+            };
+            name = Release;
+        };
+        AA1F941628D34A0500F3C1F9 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = QbertGame/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.QbertGame;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Debug;
+        };
+        AA1F941728D34A0500F3C1F9 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = QbertGame/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.QbertGame;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        AA1F93F828D34A0400F3C1F9 /* Build configuration list for PBXProject "QbertGame" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA1F93F928D34A0400F3C1F9 /* Debug */,
+                AA1F93FA28D34A0400F3C1F9 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        AA1F941528D34A0500F3C1F9 /* Build configuration list for PBXNativeTarget "QbertGame" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA1F941628D34A0500F3C1F9 /* Debug */,
+                AA1F941728D34A0500F3C1F9 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = AA1F93FE28D34A0400F3C1F9 /* Project object */;
+}
